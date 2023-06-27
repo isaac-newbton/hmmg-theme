@@ -1,0 +1,20 @@
+footer {
+    background:$gray;
+    clear:both;
+    margin-top:rem(20);
+    padding-top:rem(10);
+    padding-bottom:rem(10);
+}
+
+.footer {
+    text-align:left;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:nowrap;
+
+    p {
+        width:auto;
+        margin:0;
+        font-size:rem(14);
+    }
+}
